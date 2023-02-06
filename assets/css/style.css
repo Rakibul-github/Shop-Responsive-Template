@@ -52,6 +52,7 @@ nav .navbar .brand-logo a
     display: inline-block;
     color: #111;
     font-size: 1.1rem;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .1em;
     transition: .5s all;
@@ -81,14 +82,16 @@ nav .navbar .nav-links ul li
 {
     margin: 0 20px;
 }
-nav .navbar .nav-links ul a
+nav .navbar .nav-links ul li a
 {
     display: inline-block;
     flex: 1;
     color: #111;
     font-size: 1.1rem;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .05em;
+    padding: 5px;
     transition: .5s all;
 }
 nav .navbar .nav-links ul a:hover
@@ -157,7 +160,7 @@ nav .navbar .toggle span
     }
     nav .active 
     {
-        height: 280px;
+        height: 300px;
     }
     nav .navbar .brand-logo
     {
@@ -185,7 +188,7 @@ nav .navbar .toggle span
     {
         display: block;
         text-align: center;
-        margin: 10px 0;
+        padding: 5px 0;
         transition: .5s all;
     }
     nav .navbar .nav-links ul li:hover
@@ -201,6 +204,7 @@ nav .navbar .toggle span
         width: 100%;
         text-align: center;
         margin-left: 10px;
+        margin-top: 10px;
     }
 }
 /* navbar section end */
